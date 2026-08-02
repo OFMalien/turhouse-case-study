@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ofmalien.github.io/turhouse-case-study/sitemap.xml
