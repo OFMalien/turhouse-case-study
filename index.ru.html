@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tur House - аудит, лендинг и реанимация Google-карт | Max AI Lab</title>
+<meta name="description" content="Кейс Tur House: маркетинговый аудит, запуск нового лендинга, закрытие отзывов в Google и 100% бронь на уикенд. Что нашли, что сделали, что получил клиент.">
+<link rel="canonical" href="https://ofmalien.github.io/turhouse-case-study/index.ru.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Tur House - аудит, лендинг и реанимация Google-карт | Max AI Lab">
+<meta property="og:description" content="Загородный отельно-банный комплекс под Киевом: аудит, новый лендинг, порядок в Google Maps и полная загрузка комплекса.">
+<meta property="og:image" content="https://ofmalien.github.io/turhouse-case-study/img/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://ofmalien.github.io/turhouse-case-study/index.ru.html">
+<meta property="og:site_name" content="Max AI Lab - портфолио">
+<meta property="og:locale" content="ru_RU">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Tur House - аудит, лендинг и реанимация Google-карт | Max AI Lab">
+<meta name="twitter:description" content="Загородный отельно-банный комплекс под Киевом: маркетинг, новый лендинг и реанимация Google-карт.">
+<meta name="twitter:image" content="https://ofmalien.github.io/turhouse-case-study/img/og-image.jpg">
+
+<!-- Favicons -->
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="img/favicon-192.png">
+<link rel="apple-touch-icon" href="img/favicon-192.png">
+<meta name="theme-color" content="#000a06">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Tur House - маркетинговый аудит, лендинг и реанимация Google-карт",
+  "description": "Загородный отельно-банный комплекс под Киевом. Маркетинговый аудит, новый лендинг, 100% ответов на отзывы в Google и полная загрузка комплекса.",
+  "image": "https://ofmalien.github.io/turhouse-case-study/img/og-image.jpg",
+  "author": {
+    "@type": "Person",
+    "name": "Макс",
+    "url": "https://t.me/max_ai_labs"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Max AI Lab",
+    "sameAs": "https://t.me/max_ai_labs"
+  },
+  "mainEntityOfPage": "https://ofmalien.github.io/turhouse-case-study/",
+  "datePublished": "2026-08-02"
+}
+</script>
+
+<style>
+  :root {
+    --color-deep-forest: #000a06;
+    --color-pine-bark: #0a1a14;
+    --color-charcoal: #161818;
+    --color-abyssal-indigo: #01051b;
+    --color-paper-white: #ffffff;
+    --color-ash-gray: #5e6262;
+    --color-smoke: #828282;
+    --color-muted: #9ea3a3;
+    --color-electric-mint: #7affb4;
+    --color-mint-whisper: #e3ffef;
+    --gradient-bloom: radial-gradient(circle, rgba(0,100,70,0.40) 0%, rgba(0,60,40,0.20) 30%, rgba(0,30,20,0.08) 55%, rgba(0,0,0,0) 75%);
+
+    --font-display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+    --font-body: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+    --page-max-width: 1200px;
+    --section-gap: 80px;
+    --radius-cards: 16px;
+    --radius-buttons: 999px;
+    --radius-inputs: 8px;
+    --radius-badges: 100px;
+  }
+
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--color-deep-forest);
+    color: var(--color-paper-white);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.16px;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  img { max-width: 100%; display: block; }
+  a { color: inherit; }
+
+  .wrap {
+    max-width: var(--page-max-width);
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 300; margin: 0; color: var(--color-paper-white); }
+
+  p { color: var(--color-muted); margin: 0 0 16px; max-width: 68ch; }
+  p:last-child { margin-bottom: 0; }
+
+  .lede { font-size: 18px; line-height: 1.5; max-width: 60ch; }
+
+  strong { color: var(--color-paper-white); font-weight: 600; }
+
+  ::selection { background: var(--color-electric-mint); color: var(--color-deep-forest); }
+
+  /* ---------- Buttons ---------- */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    border-radius: var(--radius-buttons);
+    font-family: var(--font-body);
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+  }
+  .btn:hover { transform: translateY(-1px); }
+  .btn:active { transform: translateY(0); }
+  .btn-primary {
+    background: var(--color-electric-mint);
+    color: var(--color-deep-forest);
+    box-shadow: rgba(1,5,27,0.06) 0px 0px 0px 1px inset;
+  }
+  .btn-primary:hover { opacity: 0.92; }
+  .btn-ghost {
+    background: transparent;
+    border: 1px solid var(--color-paper-white);
+    color: var(--color-paper-white);
+  }
+  .btn-ghost:hover { background: rgba(255,255,255,0.06); }
+  .btn-row { display: flex; flex-wrap: wrap; gap: 8px; }
+
+  /* ---------- Nav ---------- */
+  header.site-nav {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    background: rgba(0,10,6,0.85);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(1,5,27,0.6);
+  }
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+  }
+  .wordmark {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.16px;
+    color: var(--color-paper-white);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .wordmark .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--color-electric-mint); box-shadow: 0 0 12px rgba(122,255,180,0.7); }
+  .nav-actions { display: flex; align-items: center; gap: 8px; }
+  .nav-actions .btn { padding: 8px 16px; }
+
+  /* ---------- Hero ---------- */
+  .hero {
+    padding: 96px 0 64px;
+    text-align: center;
+    position: relative;
+  }
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 16px;
+    border-radius: var(--radius-badges);
+    border: 1px solid var(--color-abyssal-indigo);
+    background: var(--color-pine-bark);
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.12px;
+    color: var(--color-electric-mint);
+    margin-bottom: 24px;
+  }
+  h1.display {
+    font-size: clamp(40px, 8vw, 68px);
+    line-height: 1.04;
+    letter-spacing: -2px;
+    font-weight: 300;
+    margin: 0 auto 24px;
+    max-width: 16ch;
+  }
+  .hero .lede { margin: 0 auto 40px; color: var(--color-muted); }
+  .hero .btn-row { justify-content: center; margin-bottom: 56px; }
+
+  .stat-row {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    border-top: 1px solid var(--color-abyssal-indigo);
+  }
+  .stat { text-align: center; }
+  .stat .num {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 28px;
+    color: var(--color-electric-mint);
+    letter-spacing: -0.5px;
+  }
+  .stat .label { font-size: 13px; color: var(--color-smoke); margin-top: 4px; }
+
+  /* ---------- Sections ---------- */
+  section { padding: var(--section-gap) 0; }
+  section.tight { padding: 48px 0; }
+  .section-head { max-width: 68ch; margin-bottom: 40px; }
+  .section-head .kicker {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.12px;
+    color: var(--color-electric-mint);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  h2.heading { font-size: clamp(28px, 5vw, 36px); letter-spacing: -1.08px; line-height: 1.16; margin-bottom: 16px; }
+  h3.heading-sm { font-size: 22px; font-weight: 400; letter-spacing: -0.4px; margin-bottom: 12px; color: var(--color-paper-white); }
+
+  .divider { height: 1px; background: var(--color-abyssal-indigo); border: none; margin: 0; }
+
+  /* ---------- Cards ---------- */
+  .card {
+    background: var(--color-pine-bark);
+    border: 1px solid var(--color-abyssal-indigo);
+    border-radius: var(--radius-cards);
+    padding: 24px;
+  }
+  .card h4 { font-size: 16px; font-weight: 500; color: var(--color-paper-white); margin-bottom: 8px; font-family: var(--font-body); }
+  .card p { font-size: 14px; margin-bottom: 0; }
+
+  .grid { display: grid; gap: 16px; }
+  .grid-2 { grid-template-columns: repeat(2, 1fr); }
+  .grid-3 { grid-template-columns: repeat(3, 1fr); }
+
+  .icon-num {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    background: var(--color-mint-whisper);
+    color: var(--color-deep-forest);
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+
+  /* ---------- Showcase (images) ---------- */
+  .bloom-wrap {
+    position: relative;
+    padding: 56px 0;
+  }
+  .bloom-wrap::before {
+    content: '';
+    position: absolute;
+    inset: -20% -10%;
+    background: var(--gradient-bloom);
+    z-index: 0;
+    pointer-events: none;
+  }
+  .bloom-wrap > * { position: relative; z-index: 1; }
+
+  .showcase {
+    background: var(--color-pine-bark);
+    border: 1px solid var(--color-abyssal-indigo);
+    border-radius: var(--radius-cards);
+    padding: 12px;
+    box-shadow: rgba(0,0,0,0.02) 0px 3px 3px 0px, rgba(0,0,0,0.01) 0px 7px 7px 0px, rgba(0,0,0,0.01) 0px 14px 14px 0px, rgba(0,0,0,0.01) 0px 25px 24px 0px;
+  }
+  .showcase img { border-radius: 10px; width: 100%; height: auto; }
+  .showcase figcaption { padding: 16px 8px 4px; font-size: 14px; color: var(--color-muted); }
+  .showcase .tag {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    padding: 4px 12px 4px 8px;
+    margin: 8px 8px 0;
+  }
+  .tag-bylo { color: #ff9d7a; }
+  .tag-stalo { color: var(--color-electric-mint); }
+
+  .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: start; }
+
+  /* ---------- Quote ---------- */
+  blockquote {
+    margin: 32px 0;
+    padding: 24px 28px;
+    border-left: 2px solid var(--color-electric-mint);
+    background: var(--color-pine-bark);
+    border-radius: 0 var(--radius-cards) var(--radius-cards) 0;
+    font-family: var(--font-display);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.3px;
+    color: var(--color-paper-white);
+    font-style: normal;
+  }
+  blockquote cite { display: block; margin-top: 12px; font-family: var(--font-body); font-style: normal; font-size: 13px; color: var(--color-smoke); }
+
+  /* ---------- Circles (competitive radius) ---------- */
+  .circle-card { position: relative; padding-left: 20px; }
+  .circle-card::before {
+    content: '';
+    position: absolute; left: 0; top: 6px;
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--color-electric-mint);
+  }
+
+  /* ---------- Checklist ---------- */
+  ul.checklist { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+  ul.checklist li {
+    display: flex; align-items: flex-start; gap: 12px;
+    font-size: 15px; color: var(--color-muted);
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(1,5,27,0.6);
+  }
+  ul.checklist li:last-child { border-bottom: none; padding-bottom: 0; }
+  ul.checklist .check {
+    flex: none; width: 20px; height: 20px; border-radius: 6px;
+    background: var(--color-mint-whisper); color: var(--color-deep-forest);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 12px; font-weight: 700; margin-top: 1px;
+  }
+
+  /* ---------- Tags / stack pills ---------- */
+  .pill-list { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0; }
+  .pill-tag {
+    padding: 8px 16px;
+    border-radius: var(--radius-buttons);
+    background: var(--color-pine-bark);
+    border: 1px solid var(--color-abyssal-indigo);
+    font-size: 13px;
+    color: var(--color-paper-white);
+    font-family: var(--font-mono);
+  }
+
+  /* ---------- Round list (Этап 3) ---------- */
+  .round-list { display: grid; gap: 16px; }
+  .round-list .card h4 { color: var(--color-electric-mint); font-family: var(--font-mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 12px; }
+  .round-list .card p { color: var(--color-paper-white); font-size: 15px; opacity: 0.85; }
+
+  /* ---------- About / elevated ---------- */
+  .elevated {
+    background: var(--color-charcoal);
+    border: 1px solid var(--color-abyssal-indigo);
+    border-radius: var(--radius-cards);
+    padding: 40px;
+  }
+  .about-row { display: grid; grid-template-columns: 120px 1fr; gap: 32px; align-items: start; }
+  .avatar {
+    width: 96px; height: 96px; border-radius: 50%;
+    background: var(--gradient-bloom), var(--color-pine-bark);
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--font-display); font-weight: 500; font-size: 32px;
+    color: var(--color-electric-mint);
+    border: 1px solid var(--color-abyssal-indigo);
+  }
+
+  /* ---------- Services ---------- */
+  .service-card .icon-num { background: transparent; color: var(--color-electric-mint); font-size: 20px; border-radius: 0; width: auto; height: auto; margin-bottom: 12px; }
+
+  /* ---------- Footer ---------- */
+  footer {
+    padding: 64px 0 40px;
+    border-top: 1px solid var(--color-abyssal-indigo);
+    text-align: center;
+  }
+  footer p { margin: 0 auto; color: var(--color-smoke); font-size: 13px; }
+  .footer-cta { margin-bottom: 40px; }
+  .footer-cta h2 { margin-bottom: 16px; }
+  .footer-cta .btn-row { justify-content: center; margin-top: 24px; }
+
+  /* ---------- Reveal animation ---------- */
+  .reveal { opacity: 0; transform: translateY(16px); transition: opacity 0.6s ease, transform 0.6s ease; }
+  .reveal.in { opacity: 1; transform: translateY(0); }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1; transform: none; transition: none; }
+    html { scroll-behavior: auto; }
+  }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 860px) {
+    .grid-3 { grid-template-columns: 1fr 1fr; }
+    .compare { grid-template-columns: 1fr; }
+    .about-row { grid-template-columns: 1fr; text-align: left; }
+  }
+  @media (max-width: 640px) {
+    .wrap { padding: 0 20px; }
+    .grid-2, .grid-3 { grid-template-columns: 1fr; }
+    .hero { padding: 56px 0 40px; }
+    section { padding: 56px 0; }
+    .nav-actions .btn-ghost { display: none; }
+    .stat-row { gap: 28px; }
+    .elevated { padding: 24px; }
+    blockquote { padding: 20px; font-size: 18px; }
+  }
+</style>
+</head>
+<body>
+  <header style="padding: 18px 0; border-bottom: 1px solid var(--color-abyssal-indigo, rgba(255,255,255,0.08));">
+    <div class="wrap" style="display: flex; justify-content: space-between; align-items: center;">
+      <a href="https://max-ai-lab.pages.dev" style="font-family: var(--font-mono); font-size: 13px; color: var(--color-paper-white); text-decoration: none; display: inline-flex; align-items: center; gap: 6px;">
+        &larr; Max AI Lab
+      </a>
+      <div style="font-family: var(--font-mono); font-size: 13px; display: inline-flex; gap: 12px; align-items: center;">
+        <a href="index.html" style="color: var(--color-muted, #888); text-decoration: none;">UA</a>
+        <span style="color: var(--color-muted, #888);">&middot;</span>
+        <span style="color: var(--color-electric-mint, #7affb4); font-weight: 600;">RU</span>
+      </div>
+    </div>
+  </header>
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <h1 class="display">Tur House</h1>
+      <p class="lede" style="margin-left:auto;margin-right:auto;">Загородный отельно-банный комплекс под Киевом. Пришёл сделать маркетинговый аудит, выявил ключевую нишу, собрал новый лендинг, оживил Google-карточку и вывел комплекс на полную загрузку в первый же уикенд.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="https://turhouse.com.ua" target="_blank" rel="noopener">Смотреть живой сайт</a>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ЗАХОД -->
+  <section class="tight reveal">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="heading">Что я увидел на старте</h2>
+      </div>
+      <p class="lede">По личной рекомендации от знакомой, связанной с командой комплекса. Пришёл посмотреть, а не продавать: сначала аудит, дальше разберёмся.</p>
+      <p>Зацепило вот что. У бизнеса живая аудитория в Instagram, 8600+ подписчиков, настоящие люди, которые реагируют на посты. А в интернете этот бизнес выглядел так, будто закрылся года три назад. Сайт древний, профиль в Google заброшен, реклама у действующего подрядчика крутится, деньги списываются, брони не растут.</p>
+      <p>Между тем, какой это бизнес на самом деле, и тем, каким его видит гость за минуту до брони, лежала пропасть. Мне стало интересно её измерить.</p>
+    </div>
+  </section>
+
+  <!-- ЭТАП 1: АУДИТ -->
+  <section class="reveal" aria-labelledby="etap1">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Этап 1</span>
+        <h2 class="heading" id="etap1">Аудит</h2>
+        <p class="lede">Руками я это не делал. На аудит у меня ушло пять AI-агентов.</p>
+      </div>
+
+      <p>Четверо работали в поле, каждый на своём направлении.</p>
+
+      <div class="grid grid-2" style="margin: 24px 0 32px;">
+        <div class="card">
+          <h4>Репутация</h4>
+          <p>Google-профиль, отзывы, рейтинги, ответы владельца.</p>
+        </div>
+        <div class="card">
+          <h4>Конкуренты</h4>
+          <p>Кто ещё забирает того же гостя и на каких условиях.</p>
+        </div>
+        <div class="card">
+          <h4>Сайт</h4>
+          <p>Техническое состояние, аналитика, теги, разметка, продуктовая линейка и то, как она упакована.</p>
+        </div>
+        <div class="card">
+          <h4>Реклама и рынок</h4>
+          <p>Кабинет действующего подрядчика плюс бенчмарки ниши: какая доля броней в норме идёт через агрегаторы, какая конверсия считается нормальной для сайта отеля, сколько площадки забирают комиссии.</p>
+        </div>
+      </div>
+
+      <p>Пятый оркестрировал этих четверых: ставил задачи, собирал находки в одно место, разруливал противоречия и выдавал мне готовый структурированный анализ, а не четыре кучи сырья, которые надо ещё неделю разгребать.</p>
+      <p>Отсюда и час. Четверо не устают, не отвлекаются и не забывают проверить восьмой пункт, потому что увлеклись третьим. Тот же объём руками занял бы несколько дней, причём половина времени ушла бы на вспоминание, что ещё не проверено.</p>
+      <p>Мне осталось то, за что платят: решения. Агенты приносят картину, но не знают, что в ней важно, а что шум, и не чувствуют, когда сами собрали ерунду. Дальше по тексту будет ровно такой случай.</p>
+
+      <h3 class="heading-sm" style="margin-top:48px;">Находка, ради которой стоило всё затевать</h3>
+      <p>На главной странице сайта висел виджет с отзывами: 4.8 звезды, «На основі 23 відгуків». Все отзывы датированы 2021 годом. Пять лет назад.</p>
+      <p>Открываешь Google Maps: 4.2 из 142 отзывов, сверху свежие однозвёздочные, и ни на один нет ответа владельца.</p>
+      <p>Гость видит обе цифры за тридцать секунд. Сайт утверждает одно, реальность показывает другое, и после этого он перестаёт верить сайту целиком, вместе с фотографиями и ценами. Это не косметика. Это дыра в доверии ровно в той точке, где принимается решение о брони.</p>
+      <p>Я заскриншотил это сразу, не откладывая. Правильно сделал: старый сайт уже уходит с домена, и через неделю доказательства было бы взять негде.</p>
+
+      <div class="bloom-wrap">
+        <figure class="showcase" style="max-width:640px;margin:0 auto;">
+          <picture>
+            <source srcset="img/bylo-vidzhet.webp" type="image/webp">
+            <img src="img/bylo-vidzhet.jpg" alt="Виджет отзывов на старом сайте: 4.8 на основе 23 отзывов, все датированы «5 лет назад»" loading="lazy" width="1350" height="607">
+          </picture>
+          <figcaption>Витрина 2021 года на главной странице. В Google в этот же момент 4.2 из 142 отзывов и ни одного ответа владельца.</figcaption>
+        </figure>
+      </div>
+
+      <p>Один гость сформулировал проблему лучше меня. Дословная цитата из отзыва в Google:</p>
+      <blockquote>
+        «обрали відпочинок за фото в Instagram, але картинка виявилась дуже далекою від реальності»
+      </blockquote>
+      <p>Это самый дорогой тип поломки, какой бывает. Маркетинг обещает больше, чем продукт отдаёт, и каждый привлечённый гость с завышенным ожиданием возвращается однозвёздочным отзывом. Реклама в такой конфигурации не приносит деньги, а ускоряет падение. Чем больше открутишь, тем быстрее испортишь себе Google.</p>
+
+      <h3 class="heading-sm" style="margin-top:48px;">Что ещё нашлось</h3>
+      <p>Реклама приводила клики, но почти не давала броней. То есть проблема была не в рекламе. Проблема была в том, что происходит после клика.</p>
+      <p>Продуктовая линейка не была упакована: у самого вместительного и дорогого формата размещения на сайте вообще не было цены. Он существовал в системе бронирования и не существовал на витрине.</p>
+      <p>Цены на сайте устарели. Гость видел одну цифру, а на заезде получал другую. Это бьёт по доверию ещё до того, как он доехал.</p>
+      <p>И сам сайт технически состарился: WordPress с Elementor, структура и контент не обновлялись годами.</p>
+
+      <h3 class="heading-sm" style="margin-top:48px;">Где я ошибся и как это починил</h3>
+      <p>Вот обещанный случай.</p>
+      <p>Агент принёс анализ конкурентов «по нише вообще»: похожие загородные комплексы по стране. Задачу он выполнил ровно так, как я её поставил. Проблема была в постановке.</p>
+      <p>Посмотрел на результат и понял, что выборка бесполезная. Для загородного отдыха конкурент это не «похожий бизнес где-то в стране». Конкурент это тот, до кого гость физически доедет за то же время в ту же субботу.</p>
+      <p>Переставил задачу и погнал заново. Разложил конкурентов по кругам физической доступности от Киева, считая по дорогам через Google Directions, а не по прямой линии на карте.</p>
+
+      <div class="grid grid-3" style="margin: 24px 0 32px;">
+        <div class="card circle-card">
+          <h4>Круг 1, около 4 км</h4>
+          <p>Парк-отель при том же природном парке. 39 домиков, онлайн-бронь на своём сайте и на двух площадках, рейтинг 9.5. Главный конкурент, и он буквально по соседству.</p>
+        </div>
+        <div class="card circle-card">
+          <h4>Круг 2, 33-37 км, тот же берег</h4>
+          <p>Четыре объекта, рейтинги 4.1-4.6, у каждого сотни отзывов.</p>
+        </div>
+        <div class="card circle-card">
+          <h4>Круг 3, за мостом, около часа пути</h4>
+          <p>Формально близко по километрам, фактически другой рынок. В конкуренты не идёт, только фоном.</p>
+        </div>
+      </div>
+
+      <p>И тут выпало главное. В ближайшем круге пустая ниша: приватный спа-отдых в диапазоне 2000-5000 грн на этом берегу не занимает никто. Сосед закрывает «много домиков рядом с парком», дальние закрывают «дорого и статусно», а «приватно, с баней, в тишине, за адекватные деньги» свободно.</p>
+      <p>Дифференциация Tur House легла ровно сюда. Приватность, баня, тишина. Это стало опорой для нового сайта: для первого экрана, для порядка блоков, для всей логики текста.</p>
+      <p>Без пересборки выборки этого вывода просто не было бы. В «нише вообще» Tur House выглядел одним из многих. В круге физической доступности он оказался единственным в своей категории. Одна и та же реальность, два противоположных ответа, и вся разница в том, что я не поленился перепроверить собственный результат.</p>
+      <p>Аудит, кстати, клиент так и не увидел. Он остался моим внутренним документом. Наружу пошли выводы и решение, а не тридцать страниц таблиц.</p>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ЭТАП 2: ЛЕНДИНГ -->
+  <section class="reveal" aria-labelledby="etap2">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Этап 2</span>
+        <h2 class="heading" id="etap2">Лендинг</h2>
+        <p class="lede">Из аудита следовало решение: старый сайт не чинить, а собирать новый под найденную нишу. Разница видна уже на первом экране.</p>
+      </div>
+
+      <div class="bloom-wrap">
+        <div class="compare">
+          <figure class="showcase">
+            <span class="tag tag-bylo">Было</span>
+            <picture>
+              <source srcset="img/bylo-sayt.webp" type="image/webp">
+              <img src="img/bylo-sayt.jpg" alt="Первый экран старого сайта: тёмное фото поля, заголовок «Унікальний спа-готель, через паркан від заповідника»" loading="lazy" width="1350" height="607">
+            </picture>
+            <figcaption>Заголовок сильный и честный, это правда. Всё остальное работает против него: серая плашка поверх фото, форма заявки вместо брони, ноль ответа на вопросы «сколько стоит» и «далеко ли ехать».</figcaption>
+          </figure>
+          <figure class="showcase">
+            <span class="tag tag-stalo">Стало</span>
+            <picture>
+              <source srcset="img/stalo-lending.webp" type="image/webp">
+              <img src="img/stalo-lending.jpg" alt="Первый экран нового лендинга: фото чана, крупный логотип TUR HOUSE, подзаголовок «готельно-банний комплекс»" loading="lazy" width="1350" height="607">
+            </picture>
+            <figcaption>Первый экран собран под вывод аудита о пустой нише: приватность, баня, тишина. Сразу видно, что это за место, где оно и что тут делают.</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <p><strong>Почему с нуля, а не чинить старый.</strong> По опыту, собрать заново почти всегда быстрее, чем чинить то, что не работает. Старый сайт это WordPress на Elementor, не обновлявшийся годами. Разбирать чужие настройки и наслоения дольше и дороже, чем построить новое.</p>
+      <p><strong>Главный принцип: минимум вмешательства заказчика.</strong> Владелец загородного комплекса занят своим комплексом. Он не должен превращаться в проджект-менеджера моего проекта. Полностью без клиента такое, конечно, не собрать, поэтому все рабочие вопросы по ходу я закрывал через доверенное лицо заказчика, а не дёргал владельца по каждой мелочи. За четыре подхода доработок получился лендинг, который на этом этапе полностью его устроил.</p>
+
+      <h3 class="heading-sm" style="margin-top:48px;">Что сделано технически</h3>
+      <p>Первую версию я собрал на фотографиях, вытащенных из Instagram клиента. Это отдельная маленькая история: у Reels нет обычной картинки-превью, а карусельные превью профиль отдаёт склейкой 2х2, и её пришлось резать на отдельные кадры. В финале все эти фото заменены на качественные оригиналы от клиента. IG-версии были нужны, чтобы не останавливать сборку и показать макет на реальном контенте, а не на стоке с улыбающимися незнакомцами.</p>
+      <p>Аналитику я не заводил заново, а перенёс со старого сайта: два контейнера тег-менеджера, GA4 и пиксель соцсети. Разница принципиальная. Новые счётчики означали бы потерю истории и всех настроенных событий, а это единственное, что у бизнеса было накоплено за годы.</p>
+      <p>Добавил структурированную разметку JSON-LD, чтобы поисковики понимали, что это за объект, где он и что предлагает.</p>
+      <p>Кнопку бронирования завёл в ту же систему, которой клиент уже пользуется. Ничего нового осваивать не нужно, ни ему, ни администратору на телефоне.</p>
+      <p>Дизайн-система по ходу поменялась. Сначала была одна палитра, потом клиент показал референс, и я пересобрал визуал под него, не переписывая контент. Тексты и структура к тому моменту уже были выстраданы аудитом, ломать их из-за цвета было бы глупо.</p>
+
+      <h3 class="heading-sm" style="margin-top:48px;">Сроки</h3>
+      <p>Первую версию собрал за одну ночь.</p>
+      <p>Прямо в процессе сборки стало ясно, что не хватает нормальных фотографий, и я запросил их сразу, не дожидаясь конца работы. Это мелочь, но она экономит сутки: когда фото пришли вместе с комментариями к первой версии, я внёс всё одним заходом, а не двумя.</p>
+      <p>Дальше пошли уже точечные доработки и актуализация. В частности, на лендинге появились действующие цены вместо тех, что висели на старом сайте с незапамятных времён.</p>
+    </div>
+  </section>
+
+  <!-- ЭТАП 3: РЕАНИМАЦИЯ GOOGLE-КАРТОЧКИ -->
+  <section class="reveal" aria-labelledby="etap3">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Этап 3</span>
+        <h2 class="heading" id="etap3">Реанимация Google-карточки</h2>
+        <p class="lede">Сайт готов, но перед бронью гость всегда открывает Google Maps. Если там разруха - реклама льётся в пустоту. Поэтому следующим шагом мы привели профиль в идеальный порядок.</p>
+      </div>
+
+      <div class="grid grid-3" style="margin: 24px 0 32px;">
+        <div class="card">
+          <h4>ЗАКРЫТЫ ВСЕ ОТЗЫВЫ</h4>
+          <p>Закрыты абсолютно все отзывы, включая те, что годами висели без ответа и портили репутацию комплекса. Теперь у профиля 100% покрытие ответами.</p>
+        </div>
+        <div class="card">
+          <h4>Свежее меню</h4>
+          <p>Старое меню со старыми ценами снесено полностью. Внесено 28 актуальных позиций в 5 разделах по реальному меню кафе.</p>
+        </div>
+        <div class="card">
+          <h4>Порядок в услугах</h4>
+          <p>Удалены дублирующие услуги, прописаны точные атрибуты отеля (дети, условия для питомцев) и запущена промо-публикация с актуальной акцией.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ЧТО ПРЕДЛОЖИЛ ДАЛЬШЕ -->
+  <section class="reveal" aria-labelledby="growth">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="heading" id="growth">Что предложил дальше</h2>
+        <p class="lede">Работа не заканчивается сдачей сайта. Вместе с ним я отдал горизонт на год вперёд: что можно сделать с этим бизнесом дальше, в каком порядке и зачем. Намеренно без цен, задача была показать направление, а не дожать вторую продажу в том же документе.</p>
+      </div>
+
+      <p style="margin-bottom:24px;">Три направления.</p>
+
+      <div class="grid grid-3">
+        <div class="card">
+          <div class="icon-num" aria-hidden="true">01</div>
+          <h4>SEO высшего уровня</h4>
+          <p>Отдельная страница под бронирование плюс локальные SEO-страницы. Цель это рост брендового и гео-трафика и меньшая зависимость от агрегаторов, где каждая бронь стоит комиссии. KPI разложены на горизонт от трёх до двенадцати месяцев.</p>
+        </div>
+        <div class="card">
+          <div class="icon-num" aria-hidden="true">02</div>
+          <h4>Автоворонка и автоматизация гостевого сервиса</h4>
+          <p>Автоответы на сайте и в мессенджерах, бронирование без ручной переписки, база гостей, автонапоминания, автоапсейл, сбор отзывов. Отдельно порекомендовал не внедрять всё сразу: начать с трёх автоматизаций, заявки, брони и отзывы, а остальное по мере того, как первые заработают.</p>
+        </div>
+        <div class="card">
+          <div class="icon-num" aria-hidden="true">03</div>
+          <h4>Технологические фишки и ИИ</h4>
+          <p>QR или NFC-директория в номере: гость сканирует код, видит меню услуг со свободными слотами и ценами, заказывает и оплачивает на месте, заявка сразу падает в нужный отдел. Плюс ИИ-маркетолог по подписке, ИИ-бронирование номеров и бот для брони бани, Instagram на автопилоте, апгрейд сайта до многостраничного.</p>
+        </div>
+      </div>
+
+      <p style="margin-top:32px;">Это меню не обязательство и не давление. Оно отвечает на вопрос, который у владельца возникает ровно в ту секунду, когда новый сайт открылся: сайт есть, а дальше что.</p>
+    </div>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ЧТО ПОЛУЧИЛ КЛИЕНТ И РЕЗУЛЬТАТЫ -->
+  <section class="reveal" aria-labelledby="result">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 class="heading" id="result">Что получил клиент и первые результаты</h2>
+      </div>
+
+      <ul class="checklist">
+        <li><span class="check" aria-hidden="true">✓</span>Боевой лендинг в проде, с текстом и структурой, выросшими из аудита, а не из шаблона.</li>
+        <li><span class="check" aria-hidden="true">✓</span>Продуктовая линейка упакована целиком, включая формат размещения, которого раньше на сайте просто не существовало.</li>
+        <li><span class="check" aria-hidden="true">✓</span>Актуальные цены вместо устаревших.</li>
+        <li><span class="check" aria-hidden="true">✓</span>Вся аналитика перенесена без потери истории и настроенных событий.</li>
+        <li><span class="check" aria-hidden="true">✓</span>Структурированная разметка под поисковики.</li>
+        <li><span class="check" aria-hidden="true">✓</span>Бронирование заведено в привычную клиенту систему.</li>
+        <li><span class="check" aria-hidden="true">✓</span>Карточка в Google Maps приведена в порядок: закрыты абсолютно все отзывы и обновлено меню.</li>
+      </ul>
+
+      <h3 class="heading-sm" style="margin-top:48px;">Результат в цифрах и деньгах</h3>
+      <p>Комплекс ощутил отдачу мгновенно: запустили акцию на уикенд, и буквально за пару дней все места были забронированы на 100%.</p>
+      <p>Самое показательное подтверждение работы связки Google + сайт: люди, которые писали бронировать в Instagram, <strong>присылали скриншоты со страниц нового сайта</strong>, куда они перешли прямо из органического поиска Google.</p>
+      <p>Увидев мгновенный финансовый результат, клиент принял решение двигаться дальше: сейчас мы масштабируем проект в полноформатный многостраничный сайт и подключаем глубокое поисковое продвижение (SEO), чтобы окончательно убрать зависимость от агрегаторов и комиссий.</p>
+
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap">
+      <p>Max AI Lab &middot; портфолио</p>
+    </div>
+  </footer>
+
+</main>
+
+<script>
+  (function() {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var els = document.querySelectorAll('.reveal');
+    if (!('IntersectionObserver' in window)) { els.forEach(function(el){ el.classList.add('in'); }); return; }
+    var io = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+    els.forEach(function(el) { io.observe(el); });
+  })();
+</script>
+
+</body>
+</html>
